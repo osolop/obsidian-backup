@@ -2,7 +2,10 @@
 	- `usecols: list[str]` - what columns to read from a file
 	- `index_col: str | list[str]` - column to be index values
 	- `parse_dates: str | list[str]` - convert column(s) values to date object
-`melt()` - 
+`melt()` - melt the multiply columns a single column values
+	- `id_vars: list[str]` - columns to keep as columns
+	- `value_vars: list[str]` - columns to melt
+	- `value_name: list[str]` - new column name
 
 ## Good practices
 Remember to keep a proper data types of the columns. You can check the column data types and memory usage by using the `.info()` method on the [[DataFrame]]. Keep in mind the `category` data type and always cast the values from columns with the small amount of unique values to this kind of type.
