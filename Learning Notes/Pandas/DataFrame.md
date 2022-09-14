@@ -52,6 +52,13 @@
 `.where()` - do not remove the items from [[DataFrame]], but set all the False row values to N/A.
 `.query(query: str)` - string query is way faster than a normal filtering.
 
+### Groups
+`.groupby(column: str: list[str])` - create collection of [[DataFrame]] grouped by argument settings
+	- `sort`
+	- `axis`
+`.get_group(name: str)` - [[DataFrame]] object for particular group
+
+
 ### Join, Merge, Concatenate
 `pd.concat(dataframe_objects: list[pd.DataFrame])` - build a new [[DataFrame]] object with [[DataFrame]]s build one on another
 	- `ignore_index: bool` - create a new index, default is False
