@@ -75,7 +75,7 @@
 	- `suffixes: list[str]` - suffix indicator for columns with the same names
 	- `indicator: bool` - add the column with information from what [DataFrame] the data coming from
 
-![[1 9eH1_7VbTZPZd9jBiGIyNA.png]]
+![[joins_map.png]]
 
 ## Attributes
 `.index` - indexes as iterator object
